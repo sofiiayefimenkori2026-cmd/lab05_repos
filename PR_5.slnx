@@ -1,8 +1,9 @@
 <Solution>
   <Configurations>
     <Platform Name="x64" />
+    <Platform Name="x86" />
   </Configurations>
-  <Project Path="Lab_05_1/Lab_05_1.vcxproj" Id="10ee8a41-4c14-41ab-8911-4a548bed4cf0" />
+  <Project Path="Lab_05_1/Lab_05_1.vcxproj" Id="10ee8a41-4c14-41ab-8911-4a548bed4cf0" DefaultStartup="true" />
   <Project Path="UnitTest_05_1/UnitTest_05_1.vcxproj" Id="c585f5fe-b52f-4c2a-ab0f-b913b50c2576" />
   <Project Path="Lab_05_2/Lab_05_2.vcxproj" Id="99a5e959-5f46-4675-a92e-4b8587727d56" />
   <Project Path="UnitTest_05_2/UnitTest_05_2.vcxproj" Id="dc5fc252-df64-4c4b-9629-0d44148fdf00" />
