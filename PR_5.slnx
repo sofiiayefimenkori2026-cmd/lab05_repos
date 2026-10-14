@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="Lab_05_1/Lab_05_1.vcxproj" Id="10ee8a41-4c14-41ab-8911-4a548bed4cf0" />
+  <Project Path="UnitTest_05_1/UnitTest_05_1.vcxproj" Id="c585f5fe-b52f-4c2a-ab0f-b913b50c2576" />
+  <Project Path="Lab_05_2/Lab_05_2.vcxproj" Id="99a5e959-5f46-4675-a92e-4b8587727d56" />
+  <Project Path="UnitTest_05_2/UnitTest_05_2.vcxproj" Id="dc5fc252-df64-4c4b-9629-0d44148fdf00" />
+  <Project Path="Lab_05_3/Lab_05_3.vcxproj" Id="3e55200d-6fa1-4969-acfc-5988bd911691" />
+  <Project Path="UnitTest_05_3/UnitTest_05_3.vcxproj" Id="b65bf6bb-80a0-4b1e-b1b2-9c70781ff0a3" />
+</Solution>
