@@ -5,6 +5,7 @@
 // Обчислення сум та добутків за допомогою рекурсії
 // Варіант 8
 #include <iostream>
+#include <iomanip>
 #include <cmath>
 
 using namespace std;
@@ -21,11 +22,16 @@ int main()
     cout << "K = "; cin >> K;
     cout << "N = "; cin >> N;
 
-    cout << "(iter)        P0 = " << P0(K, N) << endl;
-    cout << "(rec up ++)   P1 = " << P1(K, N, K) << endl;
-    cout << "(rec up --)   P2 = " << P2(K, N, N) << endl;
-    cout << "(rec down ++) P3 = " << P3(K, N, K, 1.0) << endl;
-    cout << "(rec down --) P4 = " << P4(K, N, N, 1.0) << endl;
+    cout << fixed;
+    cout << "--------------------------------------------------" << endl;
+    cout << "|  Спосіб обчислення       |   Значення виразу   |" << endl;
+    cout << "--------------------------------------------------" << endl;
+    cout << "|  iter (P0)               | " << setw(19) << right << setprecision(5) << P0(K, N) << " |" << endl;
+    cout << "|  rec up ++ (P1)          | " << setw(19) << right << setprecision(5) << P1(K, N, K) << " |" << endl;
+    cout << "|  rec up -- (P2)          | " << setw(19) << right << setprecision(5) << P2(K, N, N) << " |" << endl;
+    cout << "|  rec down ++ (P3)        | " << setw(19) << right << setprecision(5) << P3(K, N, K, 1.0) << " |" << endl;
+    cout << "|  rec down -- (P4)        | " << setw(19) << right << setprecision(5) << P4(K, N, N, 1.0) << " |" << endl;
+    cout << "--------------------------------------------------" << endl;
 
     return 0;
 }
