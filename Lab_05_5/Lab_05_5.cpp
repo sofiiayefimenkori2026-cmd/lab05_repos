@@ -5,6 +5,7 @@
 // Рекурсивні функції
 // Варіант 8
 #include <iostream>
+#include <iomanip>
 
 using namespace std;
 
@@ -18,12 +19,17 @@ int main()
     cout << "m = "; cin >> m;
 
     int depth = 0;
-    cout << "Recursive calls (levels):" << endl;
+    cout << "--------------------------------------------------------" << endl;
+    cout << "|  Рівень (level)  |   Параметр n    |   Параметр m    |" << endl;
+    cout << "--------------------------------------------------------" << endl;
+
     int result = gcd(n, m, 1, depth);
 
-    cout << "GCD(" << n << ", " << m << ") = " << result << endl;
-    cout << "depth = " << depth << endl;
-    cout << "(iter) GCD = " << gcd_iter(n, m) << endl;
+    cout << "--------------------------------------------------------" << endl;
+    cout << "|  Глибина рекурсії (depth)          | " << setw(15) << right << depth << " |" << endl;
+    cout << "|  НСД (рекурсивно)                  | " << setw(15) << right << result << " |" << endl;
+    cout << "|  НСД (ітераційно)                  | " << setw(15) << right << gcd_iter(n, m) << " |" << endl;
+    cout << "--------------------------------------------------------" << endl;
 
     return 0;
 }
@@ -32,7 +38,11 @@ int gcd(int n, int m, int level, int& depth)
 {
     if (level > depth)
         depth = level;
-    cout << "level = " << level << endl;
+
+    cout << "| " << setw(16) << right << level << " "
+         << "| " << setw(15) << right << n << " "
+         << "| " << setw(15) << right << m << " |" << endl;
+
     if (m == 0)
         return n;
     if (n % m == 0)
