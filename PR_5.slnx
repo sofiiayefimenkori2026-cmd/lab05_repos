@@ -9,4 +9,8 @@
   <Project Path="UnitTest_05_2/UnitTest_05_2.vcxproj" Id="dc5fc252-df64-4c4b-9629-0d44148fdf00" />
   <Project Path="Lab_05_3/Lab_05_3.vcxproj" Id="3e55200d-6fa1-4969-acfc-5988bd911691" />
   <Project Path="UnitTest_05_3/UnitTest_05_3.vcxproj" Id="b65bf6bb-80a0-4b1e-b1b2-9c70781ff0a3" />
+  <Project Path="Lab_05_4/Lab_05_4.vcxproj" Id="7b28a941-5d24-42bc-8a22-6582cd614b21" />
+  <Project Path="UnitTest_05_4/UnitTest_05_4.vcxproj" Id="8c39b052-6e35-43cd-9b33-7693de725c32" />
+  <Project Path="Lab_05_5/Lab_05_5.vcxproj" Id="9d4ac163-7f46-44de-ac44-8704ef836d43" DefaultStartup="true" />
+  <Project Path="UnitTest_05_5/UnitTest_05_5.vcxproj" Id="ae5bd274-8057-45ef-bd55-9815f0947e54" />
 </Solution>
