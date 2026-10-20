@@ -23,15 +23,15 @@ int main()
     cout << "N = "; cin >> N;
 
     cout << fixed;
-    cout << "--------------------------------------------------" << endl;
-    cout << "|  Спосіб обчислення       |   Значення виразу   |" << endl;
-    cout << "--------------------------------------------------" << endl;
-    cout << "|  iter (P0)               | " << setw(19) << right << setprecision(5) << P0(K, N) << " |" << endl;
-    cout << "|  rec up ++ (P1)          | " << setw(19) << right << setprecision(5) << P1(K, N, K) << " |" << endl;
-    cout << "|  rec up -- (P2)          | " << setw(19) << right << setprecision(5) << P2(K, N, N) << " |" << endl;
-    cout << "|  rec down ++ (P3)        | " << setw(19) << right << setprecision(5) << P3(K, N, K, 1.0) << " |" << endl;
-    cout << "|  rec down -- (P4)        | " << setw(19) << right << setprecision(5) << P4(K, N, N, 1.0) << " |" << endl;
-    cout << "--------------------------------------------------" << endl;
+    cout << "-------------------------------------------------" << endl;
+    cout << "|  Method                 |  Result             |" << endl;
+    cout << "-------------------------------------------------" << endl;
+    cout << "|  iter (P0)              | " << setw(19) << right << setprecision(5) << P0(K, N) << " |" << endl;
+    cout << "|  rec up ++ (P1)         | " << setw(19) << right << setprecision(5) << P1(K, N, K) << " |" << endl;
+    cout << "|  rec up -- (P2)         | " << setw(19) << right << setprecision(5) << P2(K, N, N) << " |" << endl;
+    cout << "|  rec down ++ (P3)       | " << setw(19) << right << setprecision(5) << P3(K, N, K, 1.0) << " |" << endl;
+    cout << "|  rec down -- (P4)       | " << setw(19) << right << setprecision(5) << P4(K, N, N, 1.0) << " |" << endl;
+    cout << "-------------------------------------------------" << endl;
 
     return 0;
 }
