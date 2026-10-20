@@ -20,15 +20,15 @@ int main()
 
     int depth = 0;
     cout << "--------------------------------------------------------" << endl;
-    cout << "|  Рівень (level)  |   Параметр n    |   Параметр m    |" << endl;
+    cout << "|  Level (level)   |   Parameter n   |   Parameter m   |" << endl;
     cout << "--------------------------------------------------------" << endl;
 
     int result = gcd(n, m, 1, depth);
 
     cout << "--------------------------------------------------------" << endl;
-    cout << "|  Глибина рекурсії (depth)          | " << setw(15) << right << depth << " |" << endl;
-    cout << "|  НСД (рекурсивно)                  | " << setw(15) << right << result << " |" << endl;
-    cout << "|  НСД (ітераційно)                  | " << setw(15) << right << gcd_iter(n, m) << " |" << endl;
+    cout << "|  Recursion depth (depth)           | " << setw(15) << right << depth << " |" << endl;
+    cout << "|  GCD (recursive)                   | " << setw(15) << right << result << " |" << endl;
+    cout << "|  GCD (iterative)                   | " << setw(15) << right << gcd_iter(n, m) << " |" << endl;
     cout << "--------------------------------------------------------" << endl;
 
     return 0;
