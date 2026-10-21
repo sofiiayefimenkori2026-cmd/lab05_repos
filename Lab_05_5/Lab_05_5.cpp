@@ -49,8 +49,6 @@ int gcd(int n, int m, int level, int& depth)
          << "| " << setw(15) << right << n << " "
          << "| " << setw(15) << right << m << " |" << endl;
 
-    if (m == 0)
-        return n;
     if (n % m == 0)
         return m;
     else
