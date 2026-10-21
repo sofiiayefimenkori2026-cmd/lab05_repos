@@ -18,6 +18,12 @@ int main()
     cout << "n = "; cin >> n;
     cout << "m = "; cin >> m;
 
+    if (n <= 0 || m <= 0)
+    {
+        cout << "Error: n and m must be natural numbers (n > 0, m > 0)!" << endl;
+        return 1;
+    }
+
     int depth = 0;
     cout << "--------------------------------------------------------" << endl;
     cout << "|  Level (level)   |   Parameter n   |   Parameter m   |" << endl;
